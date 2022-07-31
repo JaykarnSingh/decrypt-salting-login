@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"></style>
+    <title>login site</title>
+</head>
+<body>
+    <!-- <%- include('partials/header') %> -->
+    <h1>LogIn and visit this side</h1>
+    <form action="/login" method="post" class="loginForm">
+        <input type="email" placeholder="Enter Email" name="useremail" /><br><br>
+        <input type="password" placeholder="Enter Password" name="userpassword" /><br><br>
+        <button type="submit">login</button><br><br>
+        <a href="register">Back to registration</a>
+    </form>
+    <!-- <%- include('partials/footer') %> -->
+</body>
+</html>
